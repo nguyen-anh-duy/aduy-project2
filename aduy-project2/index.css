@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:lightskyblue;
+}
+#ketQua {
+    padding: .5rem 1rem 0rem;
+    text-align: right;
+    height: 50px;
+    font-size: 1.8rem;
+    color: blue;
+    background: white;
+    white-space: nowrap;
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+.container {
+    padding: 5rem 0;
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+}
+.calculate {
+    border-top: 1px solid;
+    display: grid;
+    grid-template-columns: 2fr 1.5fr;
+}
+.number {
+    background:lightskyblue;
+    border-right: 1px solid;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+.nutBamTT {
+    background: lightskyblue;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+.button {
+    border: none;
+    width: 100%;
+    font-size: 1.5rem;
+    color: black;
+    outline: none;
+    cursor: pointer;
+}
+.nutBamTT .button {
+    color: blue;
+}
+.button:active {
+    border-radius: 50%;
+    background: chartreuse;
+    cursor: pointer;
+}
